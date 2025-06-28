@@ -11,7 +11,7 @@ def filesget():
 
 def readfcam(age_net, gender_net):
     font = cv2.FONT_HERSHEY_COMPLEX
-    imagei = cv2.imread('human/795736-1561228636.jpg')
+    imagei = cv2.imread('human/DETAIL-BANNER-Translated---How-To-Raise-Happy-Children.jpg')
     face_cascade = cv2.CascadeClassifier('data/haarcascade_frontalface_alt.xml')
     gray = cv2.cvtColor(imagei, cv2.COLOR_BGR2GRAY)
     facese = face_cascade.detectMultiScale(gray, 1.1, 5)
